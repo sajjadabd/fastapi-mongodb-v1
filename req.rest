@@ -1,0 +1,26 @@
+POST http://localhost:8000/signup
+Content-Type: 'application/json'
+
+{
+  "email" : "test@email.com",
+  "username" : "sjabd",
+  "password" : "myPass123456"
+}
+
+###
+
+POST http://localhost:8000/signup
+Content-Type: 'application/json'
+
+{
+  "email" : "pretty@yahoo.com",
+  "username" : "oliver",
+  "password" : "passpass"
+}
+###
+
+GET http://localhost:8000/login/pretty@yahoo.com/passpass
+
+###
+
+GET http://localhost:8000/login/test@email.com/myPass123456

@@ -1,0 +1,9 @@
+# API Server
+fastapi
+uvicorn
+
+# Database
+pymongo
+
+# Development
+schematics
